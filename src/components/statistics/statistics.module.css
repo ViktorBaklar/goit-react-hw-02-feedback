@@ -1,0 +1,12 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0 10px;
+}
+
+.statistics > li {
+  font-size: 24px;
+  font-weight: 400;
+  align-self: flex-start;
+}

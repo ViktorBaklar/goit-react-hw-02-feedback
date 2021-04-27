@@ -1,0 +1,10 @@
+.buttonWrap {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  /* width: 100%; */
+}
+
+.buttonWrap > li:not(:last-child) {
+  margin-right: 20px;
+}
